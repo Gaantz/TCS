@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		835D6C9F1BA1427800EF56CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D6C9E1BA1427800EF56CB /* main.m */; };
 		835D6CA21BA1427800EF56CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D6CA11BA1427800EF56CB /* AppDelegate.m */; };
-		835D6CA51BA1427800EF56CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D6CA41BA1427800EF56CB /* ViewController.m */; };
 		835D6CA81BA1427800EF56CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835D6CA61BA1427800EF56CB /* Main.storyboard */; };
 		835D6CAA1BA1427800EF56CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835D6CA91BA1427800EF56CB /* Images.xcassets */; };
 		835D6CAD1BA1427900EF56CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 835D6CAB1BA1427900EF56CB /* LaunchScreen.xib */; };
 		835D6CB91BA1427900EF56CB /* TSCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D6CB81BA1427900EF56CB /* TSCTests.m */; };
+		835D6CC41BA1475300EF56CB /* TABLETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D6CC31BA1475300EF56CB /* TABLETableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		835D6C9E1BA1427800EF56CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		835D6CA01BA1427800EF56CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		835D6CA11BA1427800EF56CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		835D6CA31BA1427800EF56CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		835D6CA41BA1427800EF56CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		835D6CA71BA1427800EF56CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		835D6CA91BA1427800EF56CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		835D6CAC1BA1427900EF56CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		835D6CB21BA1427900EF56CB /* TSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835D6CB71BA1427900EF56CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835D6CB81BA1427900EF56CB /* TSCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCTests.m; sourceTree = "<group>"; };
+		835D6CC21BA1475300EF56CB /* TABLETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABLETableViewController.h; sourceTree = "<group>"; };
+		835D6CC31BA1475300EF56CB /* TABLETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABLETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		835D6C9B1BA1427800EF56CB /* TSC */ = {
 			isa = PBXGroup;
 			children = (
+				835D6CC21BA1475300EF56CB /* TABLETableViewController.h */,
+				835D6CC31BA1475300EF56CB /* TABLETableViewController.m */,
 				835D6CA01BA1427800EF56CB /* AppDelegate.h */,
 				835D6CA11BA1427800EF56CB /* AppDelegate.m */,
-				835D6CA31BA1427800EF56CB /* ViewController.h */,
-				835D6CA41BA1427800EF56CB /* ViewController.m */,
 				835D6CA61BA1427800EF56CB /* Main.storyboard */,
 				835D6CA91BA1427800EF56CB /* Images.xcassets */,
 				835D6CAB1BA1427900EF56CB /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835D6CA51BA1427800EF56CB /* ViewController.m in Sources */,
+				835D6CC41BA1475300EF56CB /* TABLETableViewController.m in Sources */,
 				835D6CA21BA1427800EF56CB /* AppDelegate.m in Sources */,
 				835D6C9F1BA1427800EF56CB /* main.m in Sources */,
 			);
